@@ -16,6 +16,6 @@ sed -i "s/AUTHOR_EMAIL/$author_email/g" package.json
 corepack prepare
 
 yarn
-yarn upgrade --latest
+yarn up
 
 rm setup.sh
