@@ -13,6 +13,8 @@ sed -i "s/PROJECT_NAME/$project_name/g" package.json
 sed -i "s/AUTHOR_NAME/$author_name/g" package.json
 sed -i "s/AUTHOR_EMAIL/$author_email/g" package.json
 
+corepack prepare
+
 yarn
 yarn upgrade --latest
 
