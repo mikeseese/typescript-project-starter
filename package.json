@@ -4,6 +4,7 @@
   "main": "lib/index.js",
   "author": "AUTHOR_NAME <AUTHOR_EMAIL>",
   "license": "UNLICENSED",
+  "packageManager": "yarn@3.6.1",
   "scripts": {
     "build": "tsc -b .",
     "start": "node lib/index.js"
