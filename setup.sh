@@ -15,6 +15,7 @@ sed -i "s/AUTHOR_EMAIL/$author_email/g" package.json
 
 corepack prepare
 
+yarn set version 3.6.1
 yarn
 yarn up
 
